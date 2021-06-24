@@ -12,7 +12,7 @@ const modalPromise = new Promise((resolve, reject) => {
     setTimeout(function() {
         resolve();
         modal.style.display = "none";
-      }, 60);
+      }, 60000);
 });
 
 modalPromise.then(() => {
